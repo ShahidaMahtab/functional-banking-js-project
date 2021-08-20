@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <!-- bootstrap link -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+ <header>
+  <section class="container my-5 text-center">
+  <h1 class="text-uppercase fs-1 text-black">Let's Get Some<span class="text-primary fw-bold"> Money</span>!!!</h1>
+  </section>
+ </header>
+ <main class="mx-auto">
+  <section class="container p-3">
+  <div class="row gx-4">
+    <div class="col-md-4">
+     <div class="p-4 border bg-info bg-opacity-75 text-white rounded text-uppercase">
+      <h3>deposit</h3>
+      <h3>$<span id="total-deposit">00</span></h3>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="p-4 border bg-success bg-opacity-75 text-white rounded text-uppercase">
+      <h3>Withdraw</h3>
+      <h3>$<span id="total-withdraw">00</span></h3>
+     </div>
+    </div>
+    <div class="col-md-4">
+     <div class="p-4 border bg-warning bg-opacity-75 text-white rounded text-uppercase">
+      <h3>balance</h3>
+      <h3>$<span id="total-balance">1240</span></h3>
+     </div>
+    </div>
+     <div class="row gx-5 gy-3">
+    <div class="col-md-6">
+     <div class="p-4 border bg-danger bg-opacity-25 rounded text-capitalize">
+      <h3 class="p-1 fs-4 text-black">Please Deposit</h3>
+      <div>
+       <input class="w-75 rounded border-0 fs-6 ps-2" type="text" name="" id="deposit-input" placeholder="$ amount you want to deposit"><br>
+       <button id="btn-deposit" class="bg-warning border-0 py-1 px-2 mt-2 shadow-sm rounded  text-uppercase fw-bold text-white">deposit</button>
+      </div>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <div class="p-4 border bg-secondary bg-opacity-25 rounded text-capitalize">
+      <h3 class="p-1 fs-4 text-black">Please withdraw</h3>
+      <div>
+       <input class="w-75 rounded border-0 fs-6 ps-2" type="text" name="" id="withdraw-input" placeholder="$ amount you want to withdraw"><br>
+       <button id="btn-withdraw" class="bg-warning border-0 py-1 px-2 mt-2 shadow-sm rounded  text-uppercase fw-bold text-white">withdraw</button>
+      </div>
+     </div>
+    </div>
+  </div>
+  </div>
+  </section>
+ </main>
+ <footer>
+
+ </footer>
+ <!-- bootstrap script -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+ <!-- script -->
+ <script src="app.js"></script>
+</body>
+</html>
